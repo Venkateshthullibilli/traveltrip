@@ -1,0 +1,39 @@
+.sidebar {
+  width: 268px;
+  height: 579px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 16px;
+  opacity: 0px;
+  background: #ffffff;
+  padding: 25px 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.num-container {
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #64748b;
+}
+
+.text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+/* color: background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, #F1F5F9, #F1F5F9);
+ */

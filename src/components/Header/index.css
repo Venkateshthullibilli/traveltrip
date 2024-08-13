@@ -1,0 +1,68 @@
+.nav-header {
+  height: 93px;
+  gap: 0px;
+  opacity: 0px;
+  background: #304766;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.travel-trip {
+  font-family: Caveat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.nav-item {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.logout {
+  width: 103px;
+  height: 48px;
+  top: 23px;
+  left: 1101px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  border: none;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #304766;
+}
+
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media screen and (max-width: 598px) {
+  .nav-header {
+    display: none;
+  }
+}

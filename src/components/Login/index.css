@@ -1,0 +1,145 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 328px;
+  height: 472px;
+  top: 164px;
+  left: 16px;
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: Caveat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+
+.username-container {
+  margin: 25px 0px;
+}
+
+.label-text {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.username {
+  width: 272px;
+  height: 38px;
+  top: 350px;
+  left: 44px;
+  padding: 8px 8px 8px 12px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  opacity: 0px;
+}
+
+.password-container {
+  margin-bottom: 25px;
+}
+
+.password-input-container {
+  width: 272px;
+  height: 38px;
+  top: 350px;
+  left: 44px;
+  padding: 8px 12px 8px 12px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password {
+  width: 85%;
+  height: 36px;
+  top: 350px;
+  left: 44px;
+  padding: 8px 8px 8px 12px;
+  gap: 24px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #64748b;
+  border: none;
+}
+
+.show-or-hide {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login {
+  width: 272px;
+  height: 44px;
+  top: 510px;
+  left: 44px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #304766;
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none;
+}
+
+.errorMsg {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.23px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ef4444;
+}
+
+@media screen and (min-width: 599px) {
+  .card {
+    width: 485px;
+    height: 472px;
+  }
+  .username {
+    width: 352px;
+    height: 38px;
+  }
+  .password-input-container {
+    width: 352px;
+    height: 38px;
+  }
+  .login {
+    width: 352px;
+    height: 38px;
+    line-height: 0.2px;
+  }
+}

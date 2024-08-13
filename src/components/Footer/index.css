@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 56px;
+  width: 100%;
+  /* max-width: 598px; */
+  padding: 16px;
+  gap: 10px;
+  border-radius: 12px 12px 0px 0px;
+  border: 1px solid #d0d9e6;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+}
+.icons-container {
+  width: 328px;
+  height: 24px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+
+@media screen and (min-width: 599px) {
+  .footer {
+    display: none;
+  }
+}
